@@ -1,4 +1,4 @@
-import 'package:miniplayer/miniplayer.dart';
+import 'package:mini_player/mini_player.dart';
 
 extension SelectedColorExtension on PanelState {
   int get heightCode {
@@ -23,8 +23,8 @@ double percentageFromValueInRange(
 
 double borderDouble(
     {required double minRange,
-    required double maxRange,
-    required double value}) {
+      required double maxRange,
+      required double value}) {
   if (value > maxRange) return maxRange;
   if (value < minRange) return minRange;
   return value;
