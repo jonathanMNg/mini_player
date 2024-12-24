@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:mini_player/src/mini_player_will_pop_scope.dart';
-import 'package:mini_player/src/mini_player_utils.dart';
+import 'package:mini_player/src/utils.dart';
 
 ///Type definition for the builder function
 typedef Widget MiniplayerBuilder(double height, double percentage);
